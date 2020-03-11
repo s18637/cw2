@@ -6,15 +6,15 @@ namespace cw2
 {
     public class Student
     {
-        string fname { get; }
-        string lname { get; }
-        string kierunek { get; }
-        string type { get; }
-        string index { get; }
-        DateTime bdate { get; }
-        string mail { get; }
-        string mname { get; }
-        string dname { get; }
+        public string fname { get; }
+        public string lname { get; }
+        public string kierunek { get; }
+        public string type { get; }
+        public string index { get; }
+        public DateTime bdate { get; }
+        public string mail { get; }
+        public string mname { get; }
+        public string dname { get; }
         public Student(string fname, string lname, string kierunek, string type, string index, DateTime bdate, string mail, string mname, string dname)
         {
             this.fname=fname;
